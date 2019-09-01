@@ -1,0 +1,25 @@
+{
+  "$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+  "contentVersion": "1.0.0.0",
+  "parameters": {
+    "logicAppName": {
+      "value": "poc-logicapp-arm"
+    },
+    "serviceBusConnectionName": {
+      "value": "sendToTopic"
+    },
+    "serviceBusTopicName": {
+      "value": "poc-sb-topic1-arm-new"
+    },
+    "tagValues": {
+      "value": {
+        "Environment": "Proof Of Concept",
+        "ENV": "POC",
+        "PowerShutDown": "Yes",
+        "PowerStartUp": "Yes",
+        "Owner": "IP::Riaan",
+        "Operator": "IP::Amit V"
+      }
+    }
+  }
+}
